@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Course Sell By PK</title>
+    <style>
+        /* banner */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+* {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+    }
+
+    .header {
+      background-color: #b9abab;
+      padding: 20px;
+      text-align: center
+    }
+    .header h1{
+      color: black;
+      font-style: italic;
+    }
+    
+    .topnav {
+      overflow: hidden;
+      background-color: #4a79b7;
+    }
+
+    .topnav a {
+      float: left;
+      display: block;
+      color: lightcyan;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    .topnav a:hover {
+      border-color: rgb(202, 8, 8);
+      color: black;
+      cursor: pointer
+    }
+    .tn{
+      float: right
+    }
+.btn {
+  display: inline-block;
+  background-color: #fff;
+  color: #007BFF;
+  font-size: 18px;
+  padding: 12px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+        /* logo */
+h1{
+    align-items: center;
+    color: rgb(191, 255, 0);
+
+    display: block;
+}
+.div h1{
+    text-align: center;
+    height: 2%;
+    display: block;
+    font-size: 2em;
+}
+.nav-left a li{
+    margin: 1em;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #36236f;
+    color: #fff;
+    padding: 10px;
+}
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo a {
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.user a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.left-section {
+    width: 300px;
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+color: purple
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    
+}
+
+form {
+    display: flex;
+    align-items: center;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+}
+
+button {
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover {
+    color: #007bff;
+}
+.left-section #PK{
+    color:brown
+}
+.middle-section{
+    text-align: center;
+    
+}
+/* main */
+body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+
+    }
+    .course-card {
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 10px;
+      background-color: #f9f9f9;
+    }
+    .course-card h3 {
+      margin-top: 0;
+    }
+    .course-card p {
+      color: #444;
+    }
+
+    /* footer */
+    .footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-left {
+  flex: 1;
+  text-align: left;
+}
+
+.footer-right {
+  flex: 1;
+  text-align: right;
+}
+
+.footer h3 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.footer p {
+  margin: 5px 0;
+  color: #666;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.footer-links li a {
+  color: #333;
+  text-decoration: none;
+}
+
+.footer-links li a:hover {
+  text-decoration: underline;
+}
+.footer-content .footer-right p{
+    color: blueviolet
+}
+
+    </style>
+</head>   
+<div class="header">
+  <h1>PK LearnHub</h1>
+</div>
+<div class="topnav">
+  <a href="#">Home</a>
+  <a href="#">Courses</a>
+  <a href="#">Categories</a>
+  <a href="#">About</a>
+  <a href="#">Contact</a>
+  <div class="tn">
+    <a href="">Login / Sign-Up</a>
+  </div>
+</div>
+<div class="nav">
+  <div class="left-section">
+    <h2> <strong>Welcome to our Online Course Platform</strong></h2>
+    <p><em>Explore our wide range of courses taught by industry experts</em>.</p>
+    <form>
+        <input type="text" placeholder="Search for courses">
+        <button type="submit">Search</button>
+    </form>
+    <h2>Categories</h2>
+    <ul>
+        <li><a href="#">Technology</a></li>
+        <li><a href="#">Business</a></li>
+        <li><a href="#">Design</a></li>
+        <li><a href="#">Marketing</a></li>
+        <li><a href="#">Dara Science & Analytics</a></li>
+        <li><a href="#">Graphic Design Essentials</a></li>
+        <li><a href="#">Promt Engee.By AI</a></li>
+        <li><a href="#">Stock Market</a></li>
+        <li><a href="#">Social Media Marketing</a></li>
+      <a id="PK"><strong><li>Show More</li></strong></a>
+      <hr>
+    </ul>
+</div> <br>
+</div> 
+    <div class="left-section">
+        <h2> <strong>Welcome to our Online Course Platform</strong></h2>
+        <p><em>Explore our wide range of courses taught by industry experts</em>.</p>
+        <form>
+            <input type="text" placeholder="Search for courses">
+            <button type="submit">Search</button>
+        </form>
+        <h2>Categories</h2>
+        <ul>
+            <li><a href="#">Technology</a></li>
+            <li><a href="#">Business</a></li>
+            <li><a href="#">Design</a></li>
+            <li><a href="#">Marketing</a></li>
+            <li><a href="#">Dara Science & Analytics</a></li>
+            <li><a href="#">Graphic Design Essentials</a></li>
+            <li><a href="#">Promt Engee.By AI</a></li>
+            <li><a href="#">Stock Market</a></li>
+            <li><a href="#">Social Media Marketing</a></li>
+          <a id="PK"><strong><li>Show More</li></strong></a>
+          <hr>
+            <!-- Add more categories as needed -->
+        </ul>
+    </div> <br>
+    <!-- right-section -->
+        
+               <!-- Main -->
+    <main>
+       <div class="middle-section">
+        <section class="course-cards">
+            <div class="course-card">
+              <h2>Course Title 1</h2>
+              <p>Description of the course. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <p>Price: $99.99</p>
+              <button>Enroll Now</button>
+            </div>
+            <div class="course-card">
+              <h2>Course Title 2</h2>
+              <p>Description of the course. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <p>Price: $79.99</p>
+              <button>Enroll Now</button>
+            </div>
+            <div class="course-card">
+                <h2>Course Title 3</h2>
+                <p>Description of the course. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p>Price: $89.99</p>
+                <button>Enroll Now</button>
+              </div>
+              <div class="course-card">
+                <h2>Course Title 4</h2>
+                <p>Description of the course. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p>Price: $19.99</p>
+                <button>Enroll Now</button>
+              </div>
+              
+            <!-- Add more course cards as needed -->
+          </section>
+        </main>
+
+        <!-- footer -->
+        <footer class="footer">
+            <div class="footer-content">
+              <div class="footer-left">
+                <h3>Company Name:PK Counstruction</h3>
+                <p>123 Street Near Bus Stop, City</p>
+                <p>Country:India</p>
+                <p>Email:pk2024@gmail.com</p>
+              </div>
+              <div class="footer-right">
+                <ul class="footer-links">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Courses</a></li>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Contact</a></li>
+                </ul>
+                <p>&copy; 2023 Online Course Platform. All rights reserved.</p>
+              </div>
+            </div>
+          </footer>
+      
+  
+
+       </div> 
+       
+</body>
+</html>
